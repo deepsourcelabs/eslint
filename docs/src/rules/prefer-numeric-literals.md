@@ -1,11 +1,4 @@
----
-title: prefer-numeric-literals
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/prefer-numeric-literals.md
-rule_type: suggestion
----
-
-<!--FIXABLE-->
+# prefer-numeric-literals
 
 Disallows `parseInt()` and `Number.parseInt()` in favor of binary, octal, and hexadecimal literals.
 

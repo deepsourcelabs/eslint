@@ -1,11 +1,4 @@
----
-title: quote-props
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/quote-props.md
-rule_type: suggestion
----
-
-<!--FIXABLE-->
+# quote-props
 
 Requires quotes around object literal property names.
 

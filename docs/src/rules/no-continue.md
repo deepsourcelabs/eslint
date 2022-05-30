@@ -1,9 +1,4 @@
----
-title: no-continue
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-continue.md
-rule_type: suggestion
----
+# no-continue
 
 Disallows `continue` statements.
 

@@ -1,11 +1,4 @@
----
-title: no-with
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-with.md
-rule_type: suggestion
----
-
-<!--RECOMMENDED-->
+# no-with
 
 Disallows `with` statements.
 

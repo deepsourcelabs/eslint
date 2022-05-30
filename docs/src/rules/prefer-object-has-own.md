@@ -1,11 +1,4 @@
----
-title: prefer-object-has-own
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/prefer-object-has-own.md
-rule_type: suggestion
----
-
-<!--FIXABLE-->
+# prefer-object-has-own
 
 Prefer `Object.hasOwn()` over `Object.prototype.hasOwnProperty.call()`.
 
@@ -17,7 +10,7 @@ if (Object.prototype.hasOwnProperty.call(object, "foo")) {
 }
 ```
 
-This is a common practice because methods on `Object.prototype` can sometimes be unavailable or redefined (see the [no-prototype-builtins](no-prototype-builtins) rule).
+This is a common practice because methods on `Object.prototype` can sometimes be unavailable or redefined (see the [no-prototype-builtins](no-prototype-builtins.md) rule).
 
 Introduced in ES2022, `Object.hasOwn()` is a shorter alternative to `Object.prototype.hasOwnProperty.call()`:
 

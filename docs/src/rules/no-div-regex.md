@@ -1,11 +1,4 @@
----
-title: no-div-regex
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-div-regex.md
-rule_type: suggestion
----
-
-<!--FIXABLE-->
+# no-div-regex
 
 Disallows regular expressions that look like division.
 
@@ -37,5 +30,5 @@ function bar() { return /[=]foo/; }
 
 ## Related Rules
 
-* [no-control-regex](no-control-regex)
-* [no-regex-spaces](no-regex-spaces)
+* [no-control-regex](no-control-regex.md)
+* [no-regex-spaces](no-regex-spaces.md)

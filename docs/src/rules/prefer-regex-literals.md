@@ -1,11 +1,4 @@
----
-title: prefer-regex-literals
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/prefer-regex-literals.md
-rule_type: suggestion
----
-
-<!--SUGGESTIONS-->
+# prefer-regex-literals
 
 Disallows use of the `RegExp` constructor in favor of regular expression literals.
 

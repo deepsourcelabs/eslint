@@ -1,9 +1,4 @@
----
-title: require-await
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/require-await.md
-rule_type: suggestion
----
+# require-await
 
 Disallows async functions which have no `await` expression.
 
@@ -90,4 +85,4 @@ If you are throwing an error inside of an asynchronous function for this purpose
 
 ## Related Rules
 
-* [require-yield](require-yield)
+* [require-yield](require-yield.md)

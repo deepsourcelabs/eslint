@@ -1,11 +1,4 @@
----
-title: no-implicit-coercion
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-implicit-coercion.md
-rule_type: suggestion
----
-
-<!--FIXABLE-->
+# no-implicit-coercion
 
 Disallows shorthand type conversions.
 

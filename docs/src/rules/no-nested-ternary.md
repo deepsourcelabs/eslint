@@ -1,9 +1,4 @@
----
-title: no-nested-ternary
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-nested-ternary.md
-rule_type: suggestion
----
+# no-nested-ternary
 
 Disallows nested ternary expressions.
 
@@ -47,5 +42,5 @@ if (foo) {
 
 ## Related Rules
 
-* [no-ternary](no-ternary)
-* [no-unneeded-ternary](no-unneeded-ternary)
+* [no-ternary](no-ternary.md)
+* [no-unneeded-ternary](no-unneeded-ternary.md)

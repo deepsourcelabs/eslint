@@ -1,11 +1,4 @@
----
-title: linebreak-style
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/linebreak-style.md
-rule_type: layout
----
-
-<!--FIXABLE-->
+# linebreak-style
 
 Enforces consistent linebreak style.
 

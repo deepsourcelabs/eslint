@@ -1,11 +1,4 @@
----
-title: prefer-const
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/prefer-const.md
-rule_type: suggestion
----
-
-<!--FIXABLE-->
+# prefer-const
 
 Requires `const` declarations for variables that are never reassigned after declared.
 
@@ -225,5 +218,5 @@ If you don't want to be notified about variables that are never reassigned after
 
 ## Related Rules
 
-* [no-var](no-var)
-* [no-use-before-define](no-use-before-define)
+* [no-var](no-var.md)
+* [no-use-before-define](no-use-before-define.md)

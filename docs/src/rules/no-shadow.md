@@ -1,9 +1,4 @@
----
-title: no-shadow
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-shadow.md
-rule_type: suggestion
----
+# no-shadow
 
 Disallows variable declarations from shadowing variables declared in the outer scope.
 
@@ -201,7 +196,7 @@ The rationale for callback functions is the assumption that they will be called 
 
 ## Related Rules
 
-* [no-shadow-restricted-names](no-shadow-restricted-names)
+* [no-shadow-restricted-names](no-shadow-restricted-names.md)
 
 ## Further Reading
 

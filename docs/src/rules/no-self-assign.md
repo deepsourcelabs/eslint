@@ -1,11 +1,4 @@
----
-title: no-self-assign
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-self-assign.md
-rule_type: problem
----
-
-<!--RECOMMENDED-->
+# no-self-assign
 
 Disallows assignments where both sides are exactly the same.
 

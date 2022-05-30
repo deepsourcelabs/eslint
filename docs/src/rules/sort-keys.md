@@ -1,9 +1,4 @@
----
-title: sort-keys
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/sort-keys.md
-rule_type: suggestion
----
+# sort-keys
 
 Requires object keys to be sorted.
 
@@ -227,8 +222,8 @@ If you don't want to notify about properties' order, then it's safe to disable t
 
 ## Related Rules
 
-* [sort-imports](sort-imports)
-* [sort-vars](sort-vars)
+* [sort-imports](sort-imports.md)
+* [sort-vars](sort-vars.md)
 
 ## Compatibility
 

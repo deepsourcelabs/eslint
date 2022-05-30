@@ -1,9 +1,4 @@
----
-title: no-restricted-properties
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-restricted-properties.md
-rule_type: suggestion
----
+# no-restricted-properties
 
 Disallows certain object properties.
 
@@ -127,5 +122,5 @@ If you don't have any object/property combinations to restrict, you should not u
 
 ## Related Rules
 
-* [no-restricted-globals](no-restricted-globals)
-* [no-restricted-syntax](no-restricted-syntax)
+* [no-restricted-globals](no-restricted-globals.md)
+* [no-restricted-syntax](no-restricted-syntax.md)

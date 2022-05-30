@@ -1,9 +1,4 @@
----
-title: max-lines
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/max-lines.md
-rule_type: suggestion
----
+# max-lines
 
 Enforces a maximum file length.
 
@@ -118,12 +113,12 @@ You can turn this rule off if you are not concerned with the number of lines in 
 
 ## Related Rules
 
-* [complexity](complexity)
-* [max-depth](max-depth)
-* [max-lines-per-function](max-lines-per-function)
-* [max-nested-callbacks](max-nested-callbacks)
-* [max-params](max-params)
-* [max-statements](max-statements)
+* [complexity](complexity.md)
+* [max-depth](max-depth.md)
+* [max-lines-per-function](max-lines-per-function.md)
+* [max-nested-callbacks](max-nested-callbacks.md)
+* [max-params](max-params.md)
+* [max-statements](max-statements.md)
 
 ## Compatibility
 

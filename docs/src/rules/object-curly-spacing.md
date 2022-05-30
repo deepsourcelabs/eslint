@@ -1,11 +1,4 @@
----
-title: object-curly-spacing
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/object-curly-spacing.md
-rule_type: layout
----
-
-<!--FIXABLE-->
+# object-curly-spacing
 
 Enforces consistent spacing inside braces.
 
@@ -159,7 +152,7 @@ You can turn this rule off if you are not concerned with the consistency of spac
 
 ## Related Rules
 
-* [array-bracket-spacing](array-bracket-spacing)
-* [comma-spacing](comma-spacing)
-* [computed-property-spacing](computed-property-spacing)
-* [space-in-parens](space-in-parens)
+* [array-bracket-spacing](array-bracket-spacing.md)
+* [comma-spacing](comma-spacing.md)
+* [computed-property-spacing](computed-property-spacing.md)
+* [space-in-parens](space-in-parens.md)

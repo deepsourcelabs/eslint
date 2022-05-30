@@ -1,9 +1,4 @@
----
-title: no-use-before-define
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-use-before-define.md
-rule_type: problem
----
+# no-use-before-define
 
 Disallows the use of variables before they are defined.
 

@@ -1,9 +1,4 @@
----
-title: Language Options
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/user-guide/configuring/language-options.md
-
----
+# Language Options
 
 * [Specifying Environments](#specifying-environments)
 * [Specifying Globals](#specifying-globals)

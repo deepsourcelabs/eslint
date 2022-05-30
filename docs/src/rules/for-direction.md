@@ -1,11 +1,4 @@
----
-title: for-direction
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/for-direction.md
-rule_type: problem
----
-
-<!--RECOMMENDED-->
+# for-direction
 
 Enforces `for` loop update clause moving the counter in the right direction.
 

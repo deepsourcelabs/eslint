@@ -1,11 +1,4 @@
----
-title: sort-vars
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/sort-vars.md
-rule_type: suggestion
----
-
-<!--FIXABLE-->
+# sort-vars
 
 Requires variables within the same declaration block to be sorted.
 
@@ -83,5 +76,5 @@ This rule is a formatting preference and not following it won't negatively affec
 
 ## Related Rules
 
-* [sort-keys](sort-keys)
-* [sort-imports](sort-imports)
+* [sort-keys](sort-keys.md)
+* [sort-imports](sort-imports.md)

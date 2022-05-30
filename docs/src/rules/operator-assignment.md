@@ -1,11 +1,4 @@
----
-title: operator-assignment
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/operator-assignment.md
-rule_type: suggestion
----
-
-<!--FIXABLE-->
+# operator-assignment
 
 Requires or disallows assignment operator shorthand where possible.
 

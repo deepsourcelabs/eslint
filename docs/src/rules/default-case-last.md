@@ -1,9 +1,4 @@
----
-title: default-case-last
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/default-case-last.md
-rule_type: suggestion
----
+# default-case-last
 
 Enforces default clauses in switch statements to be last.
 
@@ -21,7 +16,7 @@ This rule enforces `default` clauses in `switch` statements to be last.
 
 It applies only to `switch` statements that already have a `default` clause.
 
-This rule does not enforce the existence of `default` clauses. See [default-case](default-case) if you also want to enforce the existence of `default` clauses in `switch` statements.
+This rule does not enforce the existence of `default` clauses. See [default-case](default-case.md) if you also want to enforce the existence of `default` clauses in `switch` statements.
 
 Examples of **incorrect** code for this rule:
 
@@ -125,7 +120,7 @@ doSomethingAnyway();
 
 ## Related Rules
 
-* [default-case](default-case)
+* [default-case](default-case.md)
 
 ## Further Reading
 

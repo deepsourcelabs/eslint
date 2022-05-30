@@ -1,9 +1,4 @@
----
-title: Ignoring Code
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/user-guide/configuring/ignoring-code.md
-
----
+# Ignoring Code
 
 * [`ignorePatterns` in Config Files](#ignorepatterns-in-config-files)
 * [The `.eslintignore` File](#the-eslintignore-file)
@@ -13,7 +8,7 @@ edit_link: https://github.com/eslint/eslint/edit/main/docs/src/user-guide/config
 
 ## `ignorePatterns` in Config Files
 
-You can tell ESLint to ignore specific files and directories using `ignorePatterns` in your config files. `ignorePatterns` patterns follow the same rules as `.eslintignore`. Please see the [the `.eslintignore` file documentation](./ignoring-code#the-eslintignore-file) to learn more.
+You can tell ESLint to ignore specific files and directories using `ignorePatterns` in your config files. `ignorePatterns` patterns follow the same rules as `.eslintignore`. Please see the [the `.eslintignore` file documentation](./ignoring-code.md#the-eslintignore-file) to learn more.
 
 ```json
 {

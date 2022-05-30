@@ -1,11 +1,4 @@
----
-title: no-lonely-if
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-lonely-if.md
-rule_type: suggestion
----
-
-<!--FIXABLE-->
+# no-lonely-if
 
 Disallows `if` statements as the only statement in `else` blocks.
 

@@ -1,11 +1,4 @@
----
-title: no-undef-init
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-undef-init.md
-rule_type: suggestion
----
-
-<!--FIXABLE-->
+# no-undef-init
 
 Disallows initializing variables to `undefined`.
 
@@ -132,5 +125,5 @@ for (i = 0; i < 10; i++) {
 
 ## Related Rules
 
-* [no-undefined](no-undefined)
-* [no-void](no-void)
+* [no-undefined](no-undefined.md)
+* [no-void](no-void.md)

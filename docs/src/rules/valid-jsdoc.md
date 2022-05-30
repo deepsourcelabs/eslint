@@ -1,11 +1,4 @@
----
-title: valid-jsdoc
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/valid-jsdoc.md
-rule_type: suggestion
----
-
-<!--FIXABLE-->
+# valid-jsdoc
 
 Enforces valid JSDoc comments.
 
@@ -395,7 +388,7 @@ If you aren't using JSDoc, then you can safely turn this rule off.
 
 ## Related Rules
 
-* [require-jsdoc](require-jsdoc)
+* [require-jsdoc](require-jsdoc.md)
 
 ## Further Reading
 

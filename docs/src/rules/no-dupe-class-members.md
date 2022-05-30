@@ -1,11 +1,4 @@
----
-title: no-dupe-class-members
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-dupe-class-members.md
-rule_type: problem
----
-
-<!--RECOMMENDED-->
+# no-dupe-class-members
 
 Disallows duplicate name in class members.
 

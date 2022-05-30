@@ -1,11 +1,4 @@
----
-title: no-debugger
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-debugger.md
-rule_type: problem
----
-
-<!--RECOMMENDED-->
+# no-debugger
 
 Disallows the use of `debugger`.
 
@@ -42,8 +35,8 @@ If your code is still very much in development and don't want to worry about str
 
 ## Related Rules
 
-* [no-alert](no-alert)
-* [no-console](no-console)
+* [no-alert](no-alert.md)
+* [no-console](no-console.md)
 
 ## Further Reading
 

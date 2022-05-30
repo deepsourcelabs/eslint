@@ -1,11 +1,4 @@
----
-title: dot-location
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/dot-location.md
-rule_type: layout
----
-
-<!--FIXABLE-->
+# dot-location
 
 Enforces newline before and after dots.
 
@@ -90,5 +83,5 @@ You can turn this rule off if you are not concerned with the consistency of newl
 
 ## Related Rules
 
-* [newline-after-var](newline-after-var)
-* [dot-notation](dot-notation)
+* [newline-after-var](newline-after-var.md)
+* [dot-notation](dot-notation.md)

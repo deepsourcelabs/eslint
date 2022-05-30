@@ -1,11 +1,4 @@
----
-title: no-extra-bind
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-extra-bind.md
-rule_type: suggestion
----
-
-<!--FIXABLE-->
+# no-extra-bind
 
 Disallows unnecessary function binding.
 

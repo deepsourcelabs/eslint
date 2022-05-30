@@ -1,11 +1,4 @@
----
-title: no-global-assign
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-global-assign.md
-rule_type: suggestion
----
-
-<!--RECOMMENDED-->
+# no-global-assign
 
 Disallows assignment to native objects or read-only global variables.
 
@@ -93,6 +86,6 @@ If you are trying to override one of the native objects.
 
 ## Related Rules
 
-* [no-extend-native](no-extend-native)
-* [no-redeclare](no-redeclare)
-* [no-shadow](no-shadow)
+* [no-extend-native](no-extend-native.md)
+* [no-redeclare](no-redeclare.md)
+* [no-shadow](no-shadow.md)

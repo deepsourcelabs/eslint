@@ -1,11 +1,4 @@
----
-title: array-bracket-newline
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/array-bracket-newline.md
-rule_type: layout
----
-
-<!--FIXABLE-->
+# array-bracket-newline
 
 Enforces line breaks after opening and before closing array brackets.
 
@@ -282,7 +275,7 @@ If you don't want to enforce line breaks after opening and before closing array 
 
 ## Related Rules
 
-* [array-bracket-spacing](array-bracket-spacing)
+* [array-bracket-spacing](array-bracket-spacing.md)
 
 ## Compatibility
 

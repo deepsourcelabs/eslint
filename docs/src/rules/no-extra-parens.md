@@ -1,11 +1,4 @@
----
-title: no-extra-parens
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-extra-parens.md
-rule_type: layout
----
-
-<!--FIXABLE-->
+# no-extra-parens
 
 Disallows unnecessary parentheses.
 
@@ -15,9 +8,9 @@ This rule restricts the use of parentheses to only where they are necessary.
 
 This rule always ignores extra parentheses around the following:
 
-* RegExp literals such as `(/abc/).test(var)` to avoid conflicts with the [wrap-regex](wrap-regex) rule
-* immediately-invoked function expressions (also known as IIFEs) such as `var x = (function () {})();` and `var x = (function () {}());` to avoid conflicts with the [wrap-iife](wrap-iife) rule
-* arrow function arguments to avoid conflicts with the [arrow-parens](arrow-parens) rule
+* RegExp literals such as `(/abc/).test(var)` to avoid conflicts with the [wrap-regex](wrap-regex.md) rule
+* immediately-invoked function expressions (also known as IIFEs) such as `var x = (function () {})();` and `var x = (function () {}());` to avoid conflicts with the [wrap-iife](wrap-iife.md) rule
+* arrow function arguments to avoid conflicts with the [arrow-parens](arrow-parens.md) rule
 
 ## Options
 
@@ -300,9 +293,9 @@ typeof (a);
 
 ## Related Rules
 
-* [arrow-parens](arrow-parens)
-* [no-cond-assign](no-cond-assign)
-* [no-return-assign](no-return-assign)
+* [arrow-parens](arrow-parens.md)
+* [no-cond-assign](no-cond-assign.md)
+* [no-return-assign](no-return-assign.md)
 
 ## Further Reading
 

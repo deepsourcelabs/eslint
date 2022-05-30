@@ -1,11 +1,4 @@
----
-title: no-control-regex
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-control-regex.md
-rule_type: problem
----
-
-<!--RECOMMENDED-->
+# no-control-regex
 
 Disallows control characters in regular expressions.
 
@@ -39,5 +32,5 @@ If you need to use control character pattern matching, then you should turn this
 
 ## Related Rules
 
-* [no-div-regex](no-div-regex)
-* [no-regex-spaces](no-regex-spaces)
+* [no-div-regex](no-div-regex.md)
+* [no-regex-spaces](no-regex-spaces.md)

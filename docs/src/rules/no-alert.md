@@ -1,9 +1,4 @@
----
-title: no-alert
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-alert.md
-rule_type: suggestion
----
+# no-alert
 
 Disallows the use of `alert`, `confirm`, and `prompt`.
 
@@ -48,5 +43,5 @@ function foo() {
 
 ## Related Rules
 
-* [no-console](no-console)
-* [no-debugger](no-debugger)
+* [no-console](no-console.md)
+* [no-debugger](no-debugger.md)

@@ -1,9 +1,4 @@
----
-title: no-throw-literal
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-throw-literal.md
-rule_type: suggestion
----
+# no-throw-literal
 
 Restricts what can be thrown as an exception.
 

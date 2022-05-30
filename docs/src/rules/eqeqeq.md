@@ -1,11 +1,4 @@
----
-title: eqeqeq
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/eqeqeq.md
-rule_type: suggestion
----
-
-<!--FIXABLE-->
+# eqeqeq
 
 Requires the use of `===` and `!==`.
 

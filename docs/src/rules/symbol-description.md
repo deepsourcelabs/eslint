@@ -1,9 +1,4 @@
----
-title: symbol-description
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/symbol-description.md
-rule_type: suggestion
----
+# symbol-description
 
 Requires symbol descriptions.
 

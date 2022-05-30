@@ -1,11 +1,4 @@
----
-title: computed-property-spacing
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/computed-property-spacing.md
-rule_type: layout
----
-
-<!--FIXABLE-->
+# computed-property-spacing
 
 Disallows or enforces spaces inside of computed properties.
 
@@ -183,6 +176,6 @@ You can turn this rule off if you are not concerned with the consistency of comp
 
 ## Related Rules
 
-* [array-bracket-spacing](array-bracket-spacing)
-* [comma-spacing](comma-spacing)
-* [space-in-parens](space-in-parens)
+* [array-bracket-spacing](array-bracket-spacing.md)
+* [comma-spacing](comma-spacing.md)
+* [space-in-parens](space-in-parens.md)

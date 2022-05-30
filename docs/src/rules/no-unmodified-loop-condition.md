@@ -1,9 +1,4 @@
----
-title: no-unmodified-loop-condition
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-unmodified-loop-condition.md
-rule_type: problem
----
+# no-unmodified-loop-condition
 
 Disallows unmodified conditions of loops.
 

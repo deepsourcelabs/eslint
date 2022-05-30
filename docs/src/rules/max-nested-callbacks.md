@@ -1,9 +1,4 @@
----
-title: max-nested-callbacks
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/max-nested-callbacks.md
-rule_type: suggestion
----
+# max-nested-callbacks
 
 Enforces a maximum depth that callbacks can be nested.
 
@@ -77,13 +72,13 @@ function handleFoo4() {
 
 ## Related Rules
 
-* [complexity](complexity)
-* [max-depth](max-depth)
-* [max-len](max-len)
-* [max-lines](max-lines)
-* [max-lines-per-function](max-lines-per-function)
-* [max-params](max-params)
-* [max-statements](max-statements)
+* [complexity](complexity.md)
+* [max-depth](max-depth.md)
+* [max-len](max-len.md)
+* [max-lines](max-lines.md)
+* [max-lines-per-function](max-lines-per-function.md)
+* [max-params](max-params.md)
+* [max-statements](max-statements.md)
 
 ## Further Reading
 

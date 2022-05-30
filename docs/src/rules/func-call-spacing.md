@@ -1,11 +1,4 @@
----
-title: func-call-spacing
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/func-call-spacing.md
-rule_type: layout
----
-
-<!--FIXABLE-->
+# func-call-spacing
 
 Requires or disallows spacing between function identifiers and their invocations.
 
@@ -106,7 +99,7 @@ This rule can safely be turned off if your project does not care about enforcing
 
 ## Related Rules
 
-* [no-spaced-func](no-spaced-func) (deprecated)
+* [no-spaced-func](no-spaced-func.md) (deprecated)
 
 ## Compatibility
 

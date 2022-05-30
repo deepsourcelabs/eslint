@@ -1,9 +1,4 @@
----
-title: no-void
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-void.md
-rule_type: suggestion
----
+# no-void
 
 Disallows use of the void operator.
 
@@ -105,8 +100,8 @@ If you intentionally use the `void` operator then you can disable this rule.
 
 ## Related Rules
 
-* [no-undef-init](no-undef-init)
-* [no-undefined](no-undefined)
+* [no-undef-init](no-undef-init.md)
+* [no-undefined](no-undefined.md)
 
 ## Further Reading
 

@@ -1,11 +1,4 @@
----
-title: no-shadow-restricted-names
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-shadow-restricted-names.md
-rule_type: suggestion
----
-
-<!--RECOMMENDED-->
+# no-shadow-restricted-names
 
 Disallows identifiers from shadowing restricted names.
 
@@ -48,7 +41,7 @@ var undefined;
 
 ## Related Rules
 
-* [no-shadow](no-shadow)
+* [no-shadow](no-shadow.md)
 
 ## Further Reading
 

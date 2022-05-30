@@ -1,9 +1,4 @@
----
-title: no-eval
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-eval.md
-rule_type: suggestion
----
+# no-eval
 
 Disallows eval().
 
@@ -154,7 +149,7 @@ global.eval("var a = 0");
 
 ## Related Rules
 
-* [no-implied-eval](no-implied-eval)
+* [no-implied-eval](no-implied-eval.md)
 
 ## Further Reading
 

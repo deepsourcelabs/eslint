@@ -1,9 +1,4 @@
----
-title: prefer-rest-params
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/prefer-rest-params.md
-rule_type: suggestion
----
+# prefer-rest-params
 
 Suggests using rest parameters instead of `arguments`.
 
@@ -69,4 +64,4 @@ In ES2015 (ES6) or later, if you don't want to be notified about `arguments` var
 
 ## Related Rules
 
-* [prefer-spread](prefer-spread)
+* [prefer-spread](prefer-spread.md)

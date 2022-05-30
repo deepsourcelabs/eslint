@@ -1,13 +1,4 @@
----
-title: no-unused-labels
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-unused-labels.md
-rule_type: suggestion
----
-
-<!--RECOMMENDED-->
-
-<!--FIXABLE-->
+# no-unused-labels
 
 Disallows unused labels.
 
@@ -74,6 +65,6 @@ If you don't want to be notified about unused labels, then it's safe to disable 
 
 ## Related Rules
 
-* [no-extra-label](./no-extra-label)
-* [no-labels](./no-labels)
-* [no-label-var](./no-label-var)
+* [no-extra-label](./no-extra-label.md)
+* [no-labels](./no-labels.md)
+* [no-label-var](./no-label-var.md)

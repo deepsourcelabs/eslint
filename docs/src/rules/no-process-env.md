@@ -1,9 +1,4 @@
----
-title: no-process-env
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-process-env.md
-rule_type: suggestion
----
+# no-process-env
 
 Disallows the use of `process.env`.
 

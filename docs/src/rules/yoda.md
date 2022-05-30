@@ -1,11 +1,4 @@
----
-title: yoda
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/yoda.md
-rule_type: suggestion
----
-
-<!--FIXABLE-->
+# yoda
 
 Requires or disallows "Yoda" conditions.
 

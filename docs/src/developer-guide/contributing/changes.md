@@ -1,9 +1,4 @@
----
-title: Change Requests
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/developer-guide/contributing/changes.md
-
----
+# Change Requests
 
 If you'd like to request a change to ESLint, please [create a new issue](https://github.com/eslint/eslint/issues/new/choose) on GitHub. Be sure to include the following information:
 

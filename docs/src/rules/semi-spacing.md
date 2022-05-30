@@ -1,11 +1,4 @@
----
-title: semi-spacing
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/semi-spacing.md
-rule_type: layout
----
-
-<!--FIXABLE-->
+# semi-spacing
 
 Enforces spacing before and after semicolons.
 
@@ -111,8 +104,8 @@ You can turn this rule off if you are not concerned with the consistency of spac
 
 ## Related Rules
 
-* [semi](semi)
-* [no-extra-semi](no-extra-semi)
-* [comma-spacing](comma-spacing)
-* [block-spacing](block-spacing)
-* [space-in-parens](space-in-parens)
+* [semi](semi.md)
+* [no-extra-semi](no-extra-semi.md)
+* [comma-spacing](comma-spacing.md)
+* [block-spacing](block-spacing.md)
+* [space-in-parens](space-in-parens.md)

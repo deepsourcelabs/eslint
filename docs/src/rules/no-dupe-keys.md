@@ -1,11 +1,4 @@
----
-title: no-dupe-keys
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-dupe-keys.md
-rule_type: problem
----
-
-<!--RECOMMENDED-->
+# no-dupe-keys
 
 Disallows duplicate keys in object literals.
 

@@ -1,9 +1,4 @@
----
-title: no-script-url
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-script-url.md
-rule_type: suggestion
----
+# no-script-url
 
 Disallows `javascript:` URLs.
 

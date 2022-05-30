@@ -1,11 +1,4 @@
----
-title: no-constant-condition
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-constant-condition.md
-rule_type: problem
----
-
-<!--RECOMMENDED-->
+# no-constant-condition
 
 Disallows constant expressions in conditions.
 

@@ -1,11 +1,4 @@
----
-title: space-in-parens
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/space-in-parens.md
-rule_type: layout
----
-
-<!--FIXABLE-->
+# space-in-parens
 
 Disallows or enforce spaces inside of parentheses.
 
@@ -296,6 +289,6 @@ You can turn this rule off if you are not concerned with the consistency of spac
 
 ## Related Rules
 
-* [array-bracket-spacing](array-bracket-spacing)
-* [object-curly-spacing](object-curly-spacing)
-* [computed-property-spacing](computed-property-spacing)
+* [array-bracket-spacing](array-bracket-spacing.md)
+* [object-curly-spacing](object-curly-spacing.md)
+* [computed-property-spacing](computed-property-spacing.md)

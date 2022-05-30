@@ -1,9 +1,4 @@
----
-title: max-statements
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/max-statements.md
-rule_type: suggestion
----
+# max-statements
 
 Enforces a maximum number of statements allowed in function blocks.
 
@@ -167,10 +162,10 @@ function foo() {
 
 ## Related Rules
 
-* [complexity](complexity)
-* [max-depth](max-depth)
-* [max-len](max-len)
-* [max-lines](max-lines)
-* [max-lines-per-function](max-lines-per-function)
-* [max-nested-callbacks](max-nested-callbacks)
-* [max-params](max-params)
+* [complexity](complexity.md)
+* [max-depth](max-depth.md)
+* [max-len](max-len.md)
+* [max-lines](max-lines.md)
+* [max-lines-per-function](max-lines-per-function.md)
+* [max-nested-callbacks](max-nested-callbacks.md)
+* [max-params](max-params.md)

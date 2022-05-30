@@ -1,9 +1,4 @@
----
-title: Managing Releases
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/maintainer-guide/releases.md
-
----
+# Managing Releases
 
 Releases are when a project formally publishes a new version so the community can use it. There are two types of releases:
 

@@ -1,9 +1,4 @@
----
-title: no-useless-call
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-useless-call.md
-rule_type: suggestion
----
+# no-useless-call
 
 Disallows unnecessary `.call()` and `.apply()`.
 
@@ -77,4 +72,4 @@ If you don't want to be notified about unnecessary `.call()` and `.apply()`, you
 
 ## Related Rules
 
-* [prefer-spread](prefer-spread)
+* [prefer-spread](prefer-spread.md)

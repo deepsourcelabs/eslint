@@ -1,11 +1,4 @@
----
-title: radix
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/radix.md
-rule_type: suggestion
----
-
-<!--SUGGESTIONS-->
+# radix
 
 Enforces the consistent use of the radix argument when using `parseInt()`.
 

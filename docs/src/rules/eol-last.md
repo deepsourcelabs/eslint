@@ -1,11 +1,4 @@
----
-title: eol-last
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/eol-last.md
-rule_type: layout
----
-
-<!--FIXABLE-->
+# eol-last
 
 Requires or disallows newline at the end of files.
 
@@ -20,8 +13,8 @@ of non-empty files.
 
 Prior to v0.16.0 this rule also enforced that there was only a single line at
 the end of the file. If you still want this behavior, consider enabling
-[no-multiple-empty-lines](no-multiple-empty-lines) with `maxEOF` and/or
-[no-trailing-spaces](no-trailing-spaces).
+[no-multiple-empty-lines](no-multiple-empty-lines.md) with `maxEOF` and/or
+[no-trailing-spaces](no-trailing-spaces.md).
 
 Examples of **incorrect** code for this rule:
 

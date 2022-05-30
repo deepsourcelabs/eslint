@@ -1,11 +1,4 @@
----
-title: comma-style
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/comma-style.md
-rule_type: layout
----
-
-<!--FIXABLE-->
+# comma-style
 
 Enforces consistent comma styles.
 
@@ -168,7 +161,7 @@ This rule can safely be turned off if your project does not care about enforcing
 
 ## Related Rules
 
-* [operator-linebreak](operator-linebreak)
+* [operator-linebreak](operator-linebreak.md)
 
 ## Further Reading
 

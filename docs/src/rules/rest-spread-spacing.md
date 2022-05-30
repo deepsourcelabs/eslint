@@ -1,11 +1,4 @@
----
-title: rest-spread-spacing
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/rest-spread-spacing.md
-rule_type: layout
----
-
-<!--FIXABLE-->
+# rest-spread-spacing
 
 Enforces spacing between rest and spread operators and their expressions.
 

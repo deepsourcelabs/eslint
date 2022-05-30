@@ -1,11 +1,4 @@
----
-title: no-import-assign
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-import-assign.md
-rule_type: problem
----
-
-<!--RECOMMENDED-->
+# no-import-assign
 
 Disallows assigning to imported bindings.
 

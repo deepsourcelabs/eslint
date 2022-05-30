@@ -1,9 +1,4 @@
----
-title: no-restricted-globals
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-restricted-globals.md
-rule_type: suggestion
----
+# no-restricted-globals
 
 Disallows specific global variables.
 
@@ -93,5 +88,5 @@ function onClick() {
 
 ## Related Rules
 
-* [no-restricted-properties](no-restricted-properties)
-* [no-restricted-syntax](no-restricted-syntax)
+* [no-restricted-properties](no-restricted-properties.md)
+* [no-restricted-syntax](no-restricted-syntax.md)

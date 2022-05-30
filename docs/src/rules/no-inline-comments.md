@@ -1,9 +1,4 @@
----
-title: no-inline-comments
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-inline-comments.md
-rule_type: suggestion
----
+# no-inline-comments
 
 Disallows inline comments after code.
 

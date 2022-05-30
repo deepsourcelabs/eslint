@@ -1,11 +1,4 @@
----
-title: no-obj-calls
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-obj-calls.md
-rule_type: problem
----
-
-<!--RECOMMENDED-->
+# no-obj-calls
 
 Disallows calling global object properties as functions.
 

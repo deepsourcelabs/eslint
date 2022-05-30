@@ -1,11 +1,4 @@
----
-title: no-invalid-regexp
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-invalid-regexp.md
-rule_type: problem
----
-
-<!--RECOMMENDED-->
+# no-invalid-regexp
 
 Disallows invalid regular expression strings in `RegExp` constructors.
 

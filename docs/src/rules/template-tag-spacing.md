@@ -1,11 +1,4 @@
----
-title: template-tag-spacing
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/template-tag-spacing.md
-rule_type: layout
----
-
-<!--FIXABLE-->
+# template-tag-spacing
 
 Requires or disallow spacing between template tags and their literals.
 

@@ -1,11 +1,4 @@
----
-title: no-useless-computed-key
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-useless-computed-key.md
-rule_type: suggestion
----
-
-<!--FIXABLE-->
+# no-useless-computed-key
 
 Disallows unnecessary computed property keys in objects and classes.
 

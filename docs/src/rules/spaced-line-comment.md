@@ -1,13 +1,8 @@
----
-title: spaced-line-comment
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/spaced-line-comment.md
-
----
+# spaced-line-comment
 
 Enforces consistent spacing after `//` in line comments.
 
-(removed) This rule was **removed** in ESLint v1.0 and **replaced** by the [spaced-comment](spaced-comment) rule.
+(removed) This rule was **removed** in ESLint v1.0 and **replaced** by the [spaced-comment](spaced-comment.md) rule.
 
 Some style guides require or disallow a whitespace immediately after the initial `//` of a line comment.
 Whitespace after the `//` makes it easier to read text in comments.
@@ -76,4 +71,4 @@ var foo = 5;
 
 ## Related Rules
 
-* [spaced-comment](spaced-comment)
+* [spaced-comment](spaced-comment.md)

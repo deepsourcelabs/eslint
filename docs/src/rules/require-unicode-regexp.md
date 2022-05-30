@@ -1,9 +1,4 @@
----
-title: require-unicode-regexp
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/require-unicode-regexp.md
-rule_type: suggestion
----
+# require-unicode-regexp
 
 Enforces the use of `u` flag on RegExp.
 

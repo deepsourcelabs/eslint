@@ -1,11 +1,4 @@
----
-title: space-before-blocks
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/space-before-blocks.md
-rule_type: layout
----
-
-<!--FIXABLE-->
+# space-before-blocks
 
 Requires Or disallows space before blocks.
 
@@ -221,8 +214,8 @@ You can turn this rule off if you are not concerned with the consistency of spac
 
 ## Related Rules
 
-* [keyword-spacing](keyword-spacing)
-* [arrow-spacing](arrow-spacing)
-* [switch-colon-spacing](switch-colon-spacing)
-* [block-spacing](block-spacing)
-* [brace-style](brace-style)
+* [keyword-spacing](keyword-spacing.md)
+* [arrow-spacing](arrow-spacing.md)
+* [switch-colon-spacing](switch-colon-spacing.md)
+* [block-spacing](block-spacing.md)
+* [brace-style](brace-style.md)

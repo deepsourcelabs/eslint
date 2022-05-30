@@ -1,11 +1,4 @@
----
-title: function-paren-newline
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/function-paren-newline.md
-rule_type: layout
----
-
-<!--FIXABLE-->
+# function-paren-newline
 
 Enforces consistent line breaks inside function parentheses.
 

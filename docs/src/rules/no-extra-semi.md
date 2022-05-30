@@ -1,13 +1,4 @@
----
-title: no-extra-semi
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-extra-semi.md
-rule_type: suggestion
----
-
-<!--RECOMMENDED-->
-
-<!--FIXABLE-->
+# no-extra-semi
 
 Disallows unnecessary semicolons.
 
@@ -75,5 +66,5 @@ If you intentionally use extra semicolons then you can disable this rule.
 
 ## Related Rules
 
-* [semi](semi)
-* [semi-spacing](semi-spacing)
+* [semi](semi.md)
+* [semi-spacing](semi-spacing.md)

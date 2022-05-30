@@ -1,9 +1,4 @@
----
-title: no-extend-native
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-extend-native.md
-rule_type: suggestion
----
+# no-extend-native
 
 Disallows extending of native objects.
 
@@ -79,4 +74,4 @@ You may want to disable this rule when working with polyfills that try to patch 
 
 ## Related Rules
 
-* [no-global-assign](no-global-assign)
+* [no-global-assign](no-global-assign.md)

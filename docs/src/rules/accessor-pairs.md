@@ -1,9 +1,4 @@
----
-title: accessor-pairs
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/accessor-pairs.md
-rule_type: suggestion
----
+# accessor-pairs
 
 Enforces getter/setter pairs in objects and classes.
 
@@ -280,9 +275,9 @@ var o = {
 
 The code above creates an object with just a setter for the property `"a"`.
 
-See [no-dupe-keys](no-dupe-keys) if you also want to disallow duplicate keys in object literals.
+See [no-dupe-keys](no-dupe-keys.md) if you also want to disallow duplicate keys in object literals.
 
-See [no-dupe-class-members](no-dupe-class-members) if you also want to disallow duplicate names in class definitions.
+See [no-dupe-class-members](no-dupe-class-members.md) if you also want to disallow duplicate names in class definitions.
 
 ## When Not To Use It
 
@@ -290,8 +285,8 @@ You can turn this rule off if you are not concerned with the simultaneous presen
 
 ## Related Rules
 
-* [no-dupe-keys](no-dupe-keys)
-* [no-dupe-class-members](no-dupe-class-members)
+* [no-dupe-keys](no-dupe-keys.md)
+* [no-dupe-class-members](no-dupe-class-members.md)
 
 ## Further Reading
 

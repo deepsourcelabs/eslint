@@ -1,9 +1,4 @@
----
-title: require-atomic-updates
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/require-atomic-updates.md
-rule_type: problem
----
+# require-atomic-updates
 
 Disallows assignments that can lead to race conditions due to usage of `await` or `yield`.
 

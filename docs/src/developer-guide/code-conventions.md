@@ -1,9 +1,4 @@
----
-title: Code Conventions
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/developer-guide/code-conventions.md
-
----
+# Code Conventions
 
 Code conventions for ESLint are determined by
 [eslint-config-eslint](https://www.npmjs.com/package/eslint-config-eslint).

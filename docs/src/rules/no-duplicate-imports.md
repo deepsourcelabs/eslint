@@ -1,9 +1,4 @@
----
-title: no-duplicate-imports
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-duplicate-imports.md
-rule_type: problem
----
+# no-duplicate-imports
 
 Disallows duplicate imports.
 

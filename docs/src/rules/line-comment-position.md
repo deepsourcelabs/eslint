@@ -1,9 +1,4 @@
----
-title: line-comment-position
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/line-comment-position.md
-rule_type: layout
----
+# line-comment-position
 
 Enforces position of line comments.
 

@@ -1,11 +1,4 @@
----
-title: no-fallthrough
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-fallthrough.md
-rule_type: problem
----
-
-<!--RECOMMENDED-->
+# no-fallthrough
 
 Disallows case statement fallthroughs.
 
@@ -197,4 +190,4 @@ If you don't want to enforce that each `case` statement should end with a `throw
 
 ## Related Rules
 
-* [default-case](default-case)
+* [default-case](default-case.md)

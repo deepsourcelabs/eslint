@@ -1,9 +1,4 @@
----
-title: no-label-var
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-label-var.md
-rule_type: suggestion
----
+# no-label-var
 
 Disallows labels that are variable names.
 
@@ -50,6 +45,6 @@ If you don't want to be notified about usage of labels, then it's safe to disabl
 
 ## Related Rules
 
-* [no-extra-label](./no-extra-label)
-* [no-labels](./no-labels)
-* [no-unused-labels](./no-unused-labels)
+* [no-extra-label](./no-extra-label.md)
+* [no-labels](./no-labels.md)
+* [no-unused-labels](./no-unused-labels.md)

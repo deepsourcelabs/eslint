@@ -1,9 +1,4 @@
----
-title: default-case
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/default-case.md
-rule_type: suggestion
----
+# default-case
 
 Requires a `default` case in switch statements.
 
@@ -76,6 +71,7 @@ switch (a) {
         break;
 }
 
+
 switch (a) {
     case 1:
         /* code */
@@ -129,4 +125,4 @@ If you don't want to enforce a `default` case for `switch` statements, you can s
 
 ## Related Rules
 
-* [no-fallthrough](no-fallthrough)
+* [no-fallthrough](no-fallthrough.md)

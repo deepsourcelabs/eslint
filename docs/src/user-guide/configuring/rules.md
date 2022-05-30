@@ -1,9 +1,4 @@
----
-title: Rules
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/user-guide/configuring/rules.md
-
----
+# Rules
 
 * [Configuring Rules](#configuring-rules)
 * [Disabling Rules](#disabling-rules)

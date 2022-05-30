@@ -1,9 +1,4 @@
----
-title: no-implicit-globals
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-implicit-globals.md
-rule_type: suggestion
----
+# no-implicit-globals
 
 Disallows declarations in the global scope.
 
@@ -223,8 +218,8 @@ In the case of an ES module, if you don't want this rule to warn you about the r
 
 ## Related Rules
 
-* [no-undef](no-undef)
-* [no-global-assign](no-global-assign)
+* [no-undef](no-undef.md)
+* [no-global-assign](no-global-assign.md)
 
 ## Further Reading
 

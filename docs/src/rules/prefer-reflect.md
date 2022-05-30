@@ -1,9 +1,4 @@
----
-title: prefer-reflect
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/prefer-reflect.md
-rule_type: suggestion
----
+# prefer-reflect
 
 Suggest using Reflect methods where applicable.
 
@@ -321,7 +316,7 @@ delete bar; // deleting variable
 Reflect.deleteProperty(foo, 'bar');
 ```
 
-Note: For a rule preventing deletion of variables, see [no-delete-var instead](no-delete-var)
+Note: For a rule preventing deletion of variables, see [no-delete-var instead](no-delete-var.md)
 
 Examples of **correct** code for this rule with the `{ "exceptions": ["delete"] }` option:
 
@@ -341,6 +336,6 @@ In ES2015 (ES6) or later, if you don't want to be notified about places where Re
 
 ## Related Rules
 
-* [no-useless-call](no-useless-call)
-* [prefer-spread](prefer-spread)
-* [no-delete-var](no-delete-var)
+* [no-useless-call](no-useless-call.md)
+* [prefer-spread](prefer-spread.md)
+* [no-delete-var](no-delete-var.md)

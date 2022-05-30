@@ -1,9 +1,4 @@
----
-title: handle-callback-err
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/handle-callback-err.md
-rule_type: suggestion
----
+# handle-callback-err
 
 Enforces callback error handling.
 

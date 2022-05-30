@@ -1,11 +1,4 @@
----
-title: prefer-destructuring
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/prefer-destructuring.md
-rule_type: suggestion
----
-
-<!--FIXABLE-->
+# prefer-destructuring
 
 Requires destructuring from arrays and/or objects.
 

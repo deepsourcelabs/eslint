@@ -1,9 +1,4 @@
----
-title: max-depth
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/max-depth.md
-rule_type: suggestion
----
+# max-depth
 
 Enforces a maximum depth that blocks can be nested.
 
@@ -103,10 +98,10 @@ function foo() {
 
 ## Related Rules
 
-* [complexity](complexity)
-* [max-len](max-len)
-* [max-lines](max-lines)
-* [max-lines-per-function](max-lines-per-function)
-* [max-nested-callbacks](max-nested-callbacks)
-* [max-params](max-params)
-* [max-statements](max-statements)
+* [complexity](complexity.md)
+* [max-len](max-len.md)
+* [max-lines](max-lines.md)
+* [max-lines-per-function](max-lines-per-function.md)
+* [max-nested-callbacks](max-nested-callbacks.md)
+* [max-params](max-params.md)
+* [max-statements](max-statements.md)

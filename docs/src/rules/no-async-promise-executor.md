@@ -1,11 +1,4 @@
----
-title: no-async-promise-executor
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-async-promise-executor.md
-rule_type: problem
----
-
-<!--RECOMMENDED-->
+# no-async-promise-executor
 
 Disallows using an async function as a Promise executor.
 

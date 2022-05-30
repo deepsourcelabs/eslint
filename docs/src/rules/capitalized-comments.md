@@ -1,11 +1,4 @@
----
-title: capitalized-comments
-layout: doc
-edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/capitalized-comments.md
-rule_type: suggestion
----
-
-<!--FIXABLE-->
+# capitalized-comments
 
 Enforces or disallows capitalization of the first letter of a comment.
 
