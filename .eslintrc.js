@@ -46,7 +46,8 @@ module.exports = {
         "internal-rules"
     ],
     extends: [
-        "eslint"
+        "eslint",
+        "plugin:eslint-plugin/recommended"
     ],
     parserOptions: {
         ecmaVersion: 2021
@@ -62,6 +63,14 @@ module.exports = {
         }
     },
     rules: {
+        "eslint-plugin/prefer-message-ids": "error",
+        "eslint-plugin/prefer-output-null": "error",
+        "eslint-plugin/prefer-placeholders": "error",
+        "eslint-plugin/prefer-replace-text": "error",
+        "eslint-plugin/report-message-format": ["error", "[^a-z].*\\.$"],
+        "eslint-plugin/require-meta-docs-description": "error",
+        "eslint-plugin/test-case-property-ordering": "error",
+        "eslint-plugin/test-case-shorthand-strings": "error",
         "internal-rules/multiline-comment-style": "error"
     },
     overrides: [
@@ -74,15 +83,7 @@ module.exports = {
         {
             files: ["lib/rules/*", "tools/internal-rules/*"],
             excludedFiles: ["index.js"],
-            extends: [
-                "plugin:eslint-plugin/rules-recommended"
-            ],
             rules: {
-                "eslint-plugin/prefer-message-ids": "error",
-                "eslint-plugin/prefer-placeholders": "error",
-                "eslint-plugin/prefer-replace-text": "error",
-                "eslint-plugin/report-message-format": ["error", "[^a-z].*\\.$"],
-                "eslint-plugin/require-meta-docs-description": "error",
                 "internal-rules/no-invalid-meta": "error"
             }
         },
@@ -91,17 +92,6 @@ module.exports = {
             excludedFiles: ["index.js"],
             rules: {
                 "eslint-plugin/require-meta-docs-url": ["error", { pattern: "https://eslint.org/docs/rules/{{name}}" }]
-            }
-        },
-        {
-            files: ["tests/lib/rules/*", "tests/tools/internal-rules/*"],
-            extends: [
-                "plugin:eslint-plugin/tests-recommended"
-            ],
-            rules: {
-                "eslint-plugin/prefer-output-null": "error",
-                "eslint-plugin/test-case-property-ordering": "error",
-                "eslint-plugin/test-case-shorthand-strings": "error"
             }
         },
         {
