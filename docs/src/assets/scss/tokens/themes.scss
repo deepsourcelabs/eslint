@@ -93,7 +93,6 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    html{
     --secondary-button-background-color: var(--color-neutral-700);
     --secondary-button-hover-color: var(--color-neutral-800);
     --secondary-button-text-color: var(--body-text-color);
@@ -114,7 +113,6 @@
     --hero-background-color: var(--color-neutral-800);
     --footer-background-color: var(--color-neutral-800);
     --outline-color: #fff;
-    }
 }
 
 
