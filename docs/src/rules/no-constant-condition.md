@@ -132,7 +132,3 @@ do {
     }
 } while (true)
 ```
-
-## Related Rules
-
-* [no-constant-binary-expression](no-constant-binary-expression.md)
