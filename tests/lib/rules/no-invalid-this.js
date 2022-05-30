@@ -106,8 +106,8 @@ const patterns = [
         code: "console.log(this); z(x => console.log(x, this));",
         parserOptions: { ecmaVersion: 6 },
         errors,
-        valid: [NORMAL, USE_STRICT, IMPLIED_STRICT],
-        invalid: [MODULES]
+        valid: [NORMAL],
+        invalid: [USE_STRICT, IMPLIED_STRICT, MODULES]
     },
     {
         code: "console.log(this); z(x => console.log(x, this));",
@@ -125,17 +125,8 @@ const patterns = [
             ecmaVersion: 6
         },
         errors,
-        valid: [NORMAL, USE_STRICT, IMPLIED_STRICT],
-        invalid: [MODULES]
-    },
-    {
-        code: "this.eval('foo');",
-        parserOptions: {
-            ecmaVersion: 6
-        },
-        errors: [{ messageId: "unexpectedThis", type: "ThisExpression" }],
-        valid: [NORMAL, USE_STRICT, IMPLIED_STRICT],
-        invalid: [MODULES]
+        valid: [NORMAL],
+        invalid: [USE_STRICT, IMPLIED_STRICT, MODULES]
     },
 
     // IIFE.
@@ -383,8 +374,8 @@ const patterns = [
     {
         code: "obj.foo = (() => () => { console.log(this); z(x => console.log(x, this)); })();",
         parserOptions: { ecmaVersion: 6 },
-        valid: [NORMAL, USE_STRICT, IMPLIED_STRICT],
-        invalid: [MODULES],
+        valid: [NORMAL],
+        invalid: [USE_STRICT, IMPLIED_STRICT, MODULES],
         errors
     },
     {
@@ -802,8 +793,8 @@ const patterns = [
     {
         code: "class C { [this.foo]; }",
         parserOptions: { ecmaVersion: 2022 },
-        valid: [NORMAL, USE_STRICT, IMPLIED_STRICT], // `this` is the top-level `this`
-        invalid: [MODULES],
+        valid: [NORMAL], // the global this in non-strict mode is OK.
+        invalid: [USE_STRICT, IMPLIED_STRICT, MODULES],
         errors: [{ messageId: "unexpectedThis", type: "ThisExpression" }]
     },
     {
@@ -864,15 +855,15 @@ const patterns = [
     {
         code: "class C { static {} [this]; }",
         parserOptions: { ecmaVersion: 2022 },
-        valid: [NORMAL, USE_STRICT, IMPLIED_STRICT],
-        invalid: [MODULES],
+        valid: [NORMAL],
+        invalid: [USE_STRICT, IMPLIED_STRICT, MODULES],
         errors: [{ messageId: "unexpectedThis", type: "ThisExpression" }]
     },
     {
         code: "class C { static {} [this.x]; }",
         parserOptions: { ecmaVersion: 2022 },
-        valid: [NORMAL, USE_STRICT, IMPLIED_STRICT],
-        invalid: [MODULES],
+        valid: [NORMAL],
+        invalid: [USE_STRICT, IMPLIED_STRICT, MODULES],
         errors: [{ messageId: "unexpectedThis", type: "ThisExpression" }]
     },
 
