@@ -21,7 +21,7 @@ While ESLint is designed to be run on the command line, it's possible to use ESL
     * [LintMessage type][lintmessage]
     * [SuppressedLintMessage type][suppressedlintmessage]
     * [EditInfo type][editinfo]
-    * [LoadedFormatter type][loadedformatter]
+    * [Formatter type][formatter]
 * [SourceCode](#sourcecode)
     * [splitLines()](#sourcecodesplitlines)
 * [Linter](#linter)
@@ -287,8 +287,8 @@ This method loads a formatter. Formatters convert lint results to a human- or ma
 
 #### Return Value
 
-* (`Promise<LoadedFormatter>`)<br>
-  The promise that will be fulfilled with a [LoadedFormatter] object.
+* (`Promise<Formatter>`)<br>
+  The promise that will be fulfilled with a [Formatter] object.
 
 ### ◆ ESLint.version
 
@@ -430,9 +430,9 @@ The `EditInfo` value is information to edit text. The `fix` and `suggestions` pr
 
 This edit information means replacing the range of the `range` property by the `text` property value. It's like `sourceCodeText.slice(0, edit.range[0]) + edit.text + sourceCodeText.slice(edit.range[1])`. Therefore, it's an add if the `range[0]` and `range[1]` property values are the same value, and it's removal if the `text` property value is empty string.
 
-### ◆ LoadedFormatter type
+### ◆ Formatter type
 
-The `LoadedFormatter` value is the object to convert the [LintResult] objects to text. The [eslint.loadFormatter()][eslint-loadformatter] method returns it. It has the following method:
+The `Formatter` value is the object to convert the [LintResult] objects to text. The [eslint.loadFormatter()][eslint-loadformatter] method returns it. It has the following method:
 
 * `format` (`(results: LintResult[]) => string | Promise<string>`)<br>
   The method to convert the [LintResult] objects to text.
@@ -960,5 +960,5 @@ ruleTester.run("my-rule", myRule, {
 [lintmessage]: #-lintmessage-type
 [suppressedlintmessage]: #-suppressedlintmessage-type
 [editinfo]: #-editinfo-type
-[loadedformatter]: #-loadedformatter-type
+[formatter]: #-formatter-type
 [linter]: #linter
