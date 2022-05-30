@@ -1220,8 +1220,8 @@ describe("RuleTester", () => {
                     },
                     {
                         code: "",
-                        parserOptions: {},
-                        errors: [{ messageId: "ecmaVersionMessage", data: { type: "number", ecmaVersion: "6" } }]
+                        errors: [{ messageId: "ecmaVersionMessage", data: { type: "number", ecmaVersion: "6" } }],
+                        parserOptions: {}
                     }
                 ]
             });
@@ -1236,8 +1236,8 @@ describe("RuleTester", () => {
                 },
                 {
                     code: "",
-                    parserOptions: { ecmaVersion: "latest" },
-                    errors: [{ messageId: "ecmaVersionMessage", data: { type: "string", ecmaVersion: "latest" } }]
+                    errors: [{ messageId: "ecmaVersionMessage", data: { type: "string", ecmaVersion: "latest" } }],
+                    parserOptions: { ecmaVersion: "latest" }
                 }
             ]
         });
