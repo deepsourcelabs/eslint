@@ -133,8 +133,10 @@ function reduceBadExampleSize({
      * @returns {ASTNode} A descendent of `node` which is also bad
      */
     function extractRelevantChild(node) {
-        const childNodes = visitorKeys[node.type]
-            .flatMap(key => (Array.isArray(node[key]) ? node[key] : [node[key]]));
+        const childNodes = [].concat(
+            ...visitorKeys[node.type]
+                .map(key => (Array.isArray(node[key]) ? node[key] : [node[key]]))
+        );
 
         for (const childNode of childNodes) {
             if (!childNode) {

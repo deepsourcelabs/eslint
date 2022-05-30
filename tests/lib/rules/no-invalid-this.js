@@ -86,7 +86,8 @@ function extractPatterns(patterns, type) {
         return thisPattern;
     }));
 
-    return patternsList.flat();
+    // Flatten.
+    return [].concat(...patternsList);
 }
 
 //------------------------------------------------------------------------------
