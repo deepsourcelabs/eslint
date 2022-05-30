@@ -45,7 +45,6 @@ ruleTester.run("valid-typeof", rule, {
         "typeof(foo) == 'string'",
         "typeof(foo) != 'string'",
         "var oddUse = typeof foo + 'thing'",
-        "function f(undefined) { typeof x === undefined }",
         {
             code: "typeof foo === 'number'",
             options: [{ requireStringLiterals: true }]
@@ -138,21 +137,6 @@ ruleTester.run("valid-typeof", rule, {
             errors: [{ messageId: "invalidValue", type: "Literal" }]
         },
         {
-            code: "if (typeof bar !== undefined) {}",
-            errors: [
-                {
-                    messageId: "invalidValue",
-                    type: "Identifier",
-                    suggestions: [
-                        {
-                            messageId: "suggestString",
-                            data: { type: "undefined" },
-                            output: 'if (typeof bar !== "undefined") {}'
-                        }
-                    ]
-                }]
-        },
-        {
             code: "typeof foo == Object",
             options: [{ requireStringLiterals: true }],
             errors: [{ messageId: "notString", type: "Identifier" }]
@@ -160,50 +144,17 @@ ruleTester.run("valid-typeof", rule, {
         {
             code: "typeof foo === undefined",
             options: [{ requireStringLiterals: true }],
-            errors: [
-                {
-                    messageId: "notString",
-                    type: "Identifier",
-                    suggestions: [
-                        {
-                            messageId: "suggestString",
-                            data: { type: "undefined" },
-                            output: 'typeof foo === "undefined"'
-                        }
-                    ]
-                }]
+            errors: [{ messageId: "notString", type: "Identifier" }]
         },
         {
             code: "undefined === typeof foo",
             options: [{ requireStringLiterals: true }],
-            errors: [
-                {
-                    messageId: "notString",
-                    type: "Identifier",
-                    suggestions: [
-                        {
-                            messageId: "suggestString",
-                            data: { type: "undefined" },
-                            output: '"undefined" === typeof foo'
-                        }
-                    ]
-                }]
+            errors: [{ messageId: "notString", type: "Identifier" }]
         },
         {
             code: "undefined == typeof foo",
             options: [{ requireStringLiterals: true }],
-            errors: [
-                {
-                    messageId: "notString",
-                    type: "Identifier",
-                    suggestions: [
-                        {
-                            messageId: "suggestString",
-                            data: { type: "undefined" },
-                            output: '"undefined" == typeof foo'
-                        }
-                    ]
-                }]
+            errors: [{ messageId: "notString", type: "Identifier" }]
         },
         {
             code: "typeof foo === `undefined${foo}`",
