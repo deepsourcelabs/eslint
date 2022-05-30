@@ -144,8 +144,6 @@ console.log('bar');
 /* eslint-enable no-alert, no-console */
 ```
 
-**Note:** `/* eslint-enable */` without any specific rules listed will cause all disabled rules to be re-enabled.
-
 To disable rule warnings in an entire file, put a `/* eslint-disable */` block comment at the top of the file:
 
 ```js
@@ -158,14 +156,6 @@ You can also disable or enable specific rules for an entire file:
 
 ```js
 /* eslint-disable no-alert */
-
-alert('foo');
-```
-
-To ensure that a rule is never applied (regardless of any future enable/disable lines):
-
-```js
-/* eslint no-alert: "off" */
 
 alert('foo');
 ```
