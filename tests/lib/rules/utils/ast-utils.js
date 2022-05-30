@@ -204,10 +204,7 @@ describe("ast-utils", () => {
                 "// lalala I'm a normal comment",
                 "// trying to confuse eslint ",
                 "//trying to confuse eslint-directive-detection",
-                "//eslint is awesome",
-                "//global line comment is not a directive",
-                "//globals line comment is not a directive",
-                "//exported line comment is not a directive"
+                "//eslint is awesome"
             ].join("\n");
             const ast = espree.parse(code, ESPREE_CONFIG);
             const sourceCode = new SourceCode(code, ast);
@@ -250,10 +247,7 @@ describe("ast-utils", () => {
                 "/*eslint-enable no-undef*/",
                 "/* eslint-env {\"es6\": true} */",
                 "/* eslint foo */",
-                "/*eslint bar*/",
-                "/*global foo*/",
-                "/*globals foo*/",
-                "/*exported foo*/"
+                "/*eslint bar*/"
             ].join("\n");
             const ast = espree.parse(code, ESPREE_CONFIG);
             const sourceCode = new SourceCode(code, ast);
