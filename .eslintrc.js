@@ -75,12 +75,6 @@ module.exports = {
     },
     overrides: [
         {
-            files: ["tools/*.js"],
-            rules: {
-                "no-console": "off"
-            }
-        },
-        {
             files: ["lib/rules/*", "tools/internal-rules/*"],
             excludedFiles: ["index.js"],
             rules: {
