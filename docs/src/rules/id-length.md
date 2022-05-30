@@ -3,11 +3,6 @@ title: id-length
 layout: doc
 edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/id-length.md
 rule_type: suggestion
-related_rules:
-- max-len
-- new-cap
-- func-names
-- camelcase
 ---
 
 Enforces minimum and maximum identifier lengths.
@@ -258,3 +253,10 @@ var [E] = arr;
 const { y } = foo;
 const { a: z } = foo;
 ```
+
+## Related Rules
+
+* [max-len](max-len)
+* [new-cap](new-cap)
+* [func-names](func-names)
+* [camelcase](camelcase)

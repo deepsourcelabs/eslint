@@ -3,9 +3,6 @@ title: lines-around-directive
 layout: doc
 edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/lines-around-directive.md
 rule_type: layout
-related_rules:
-- lines-around-comment
-- padded-blocks
 ---
 
 <!--FIXABLE-->
@@ -319,6 +316,11 @@ function foo() {
 ## When Not To Use It
 
 You can safely disable this rule if you do not have any strict conventions about whether or not directive prologues should have blank newlines before or after them.
+
+## Related Rules
+
+* [lines-around-comment](lines-around-comment)
+* [padded-blocks](padded-blocks)
 
 ## Compatibility
 

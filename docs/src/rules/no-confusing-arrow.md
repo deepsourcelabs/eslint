@@ -3,9 +3,6 @@ title: no-confusing-arrow
 layout: doc
 edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-confusing-arrow.md
 rule_type: suggestion
-related_rules:
-- no-constant-condition
-- arrow-parens
 ---
 
 <!--FIXABLE-->
@@ -98,3 +95,8 @@ Examples of **correct** code for this rule with the `{"onlyOneSimpleParam": true
 ([a]) => 1 ? 2 : 3;
 (...a) => 1 ? 2 : 3;
 ```
+
+## Related Rules
+
+* [no-constant-condition](no-constant-condition)
+* [arrow-parens](arrow-parens)

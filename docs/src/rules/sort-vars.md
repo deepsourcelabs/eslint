@@ -3,9 +3,6 @@ title: sort-vars
 layout: doc
 edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/sort-vars.md
 rule_type: suggestion
-related_rules:
-- sort-keys
-- sort-imports
 ---
 
 <!--FIXABLE-->
@@ -83,3 +80,8 @@ var a, B, c;
 ## When Not To Use It
 
 This rule is a formatting preference and not following it won't negatively affect the quality of your code. If you alphabetizing variables isn't a part of your coding standards, then you can leave this rule off.
+
+## Related Rules
+
+* [sort-keys](sort-keys)
+* [sort-imports](sort-imports)

@@ -3,10 +3,6 @@ title: no-promise-executor-return
 layout: doc
 edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-promise-executor-return.md
 rule_type: problem
-related_rules:
-- no-async-promise-executor
-further_reading:
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 ---
 
 Disallows returning values from Promise executor functions.
@@ -97,3 +93,11 @@ new Promise((resolve, reject) => {
 
 Promise.resolve(1);
 ```
+
+## Related Rules
+
+* [no-async-promise-executor](no-async-promise-executor)
+
+## Further Reading
+
+* [MDN Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)

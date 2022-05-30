@@ -3,9 +3,6 @@ title: padded-blocks
 layout: doc
 edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/padded-blocks.md
 rule_type: layout
-related_rules:
-- lines-between-class-members
-- padding-line-between-statements
 ---
 
 <!--FIXABLE-->
@@ -485,3 +482,8 @@ if (a) {
 ## When Not To Use It
 
 You can turn this rule off if you are not concerned with the consistency of padding within blocks.
+
+## Related Rules
+
+* [lines-between-class-members](lines-between-class-members)
+* [padding-line-between-statements](padding-line-between-statements)

@@ -3,11 +3,6 @@ title: brace-style
 layout: doc
 edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/brace-style.md
 rule_type: layout
-related_rules:
-- block-spacing
-- space-before-blocks
-further_reading:
-- https://en.wikipedia.org/wiki/Indent_style
 ---
 
 <!--FIXABLE-->
@@ -397,3 +392,12 @@ class D { static { foo(); } }
 ## When Not To Use It
 
 If you don't want to enforce a particular brace style, don't enable this rule.
+
+## Related Rules
+
+* [block-spacing](block-spacing)
+* [space-before-blocks](space-before-blocks)
+
+## Further Reading
+
+* [Indent style](https://en.wikipedia.org/wiki/Indent_style)

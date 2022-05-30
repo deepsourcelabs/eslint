@@ -3,11 +3,6 @@ title: no-restricted-syntax
 layout: doc
 edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-restricted-syntax.md
 rule_type: suggestion
-related_rules:
-- no-alert
-- no-console
-- no-debugger
-- no-restricted-properties
 ---
 
 Disallows specified syntax.
@@ -87,3 +82,10 @@ foo instanceof bar;
 ## When Not To Use It
 
 If you don't want to restrict your code from using any JavaScript features or syntax, you should not use this rule.
+
+## Related Rules
+
+* [no-alert](no-alert)
+* [no-console](no-console)
+* [no-debugger](no-debugger)
+* [no-restricted-properties](no-restricted-properties)

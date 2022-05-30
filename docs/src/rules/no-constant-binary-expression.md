@@ -3,8 +3,6 @@ title: no-constant-binary-expression
 layout: doc
 edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-constant-binary-expression.md
 rule_type: problem
-related_rules:
-- no-constant-condition
 ---
 
 Disallows expressions where the operation doesn't affect the value.
@@ -71,3 +69,7 @@ const objIsEmpty = Object.keys(someObj).length === 0;
 
 const arrIsEmpty = someArr.length === 0;
 ```
+
+## Related Rules
+
+* [no-constant-condition](no-constant-condition)

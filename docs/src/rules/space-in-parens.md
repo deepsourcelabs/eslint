@@ -3,10 +3,6 @@ title: space-in-parens
 layout: doc
 edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/space-in-parens.md
 rule_type: layout
-related_rules:
-- array-bracket-spacing
-- object-curly-spacing
-- computed-property-spacing
 ---
 
 <!--FIXABLE-->
@@ -297,3 +293,9 @@ foo({bar: 'baz'}, [1, 2]);
 ## When Not To Use It
 
 You can turn this rule off if you are not concerned with the consistency of spacing between parentheses.
+
+## Related Rules
+
+* [array-bracket-spacing](array-bracket-spacing)
+* [object-curly-spacing](object-curly-spacing)
+* [computed-property-spacing](computed-property-spacing)

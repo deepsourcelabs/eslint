@@ -3,9 +3,6 @@ title: sort-imports
 layout: doc
 edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/sort-imports.md
 rule_type: suggestion
-related_rules:
-- sort-keys
-- sort-vars
 ---
 
 <!--FIXABLE-->
@@ -295,3 +292,8 @@ Default is `false`.
 ## When Not To Use It
 
 This rule is a formatting preference and not following it won't negatively affect the quality of your code. If alphabetizing imports isn't a part of your coding standards, then you can leave this rule disabled.
+
+## Related Rules
+
+* [sort-keys](sort-keys)
+* [sort-vars](sort-vars)

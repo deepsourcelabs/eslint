@@ -3,8 +3,6 @@ title: symbol-description
 layout: doc
 edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/symbol-description.md
 rule_type: suggestion
-further_reading:
-- https://www.ecma-international.org/ecma-262/6.0/#sec-symbol-description
 ---
 
 Requires symbol descriptions.
@@ -60,3 +58,7 @@ var bar = Symbol(someString);
 
 This rule should not be used in ES3/5 environments.
 In addition, this rule can be safely turned off if you don't want to enforce presence of `description` when creating Symbols.
+
+## Further Reading
+
+* [Symbol Objects specification: Symbol description](https://www.ecma-international.org/ecma-262/6.0/#sec-symbol-description)

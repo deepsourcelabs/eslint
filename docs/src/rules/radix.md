@@ -3,8 +3,6 @@ title: radix
 layout: doc
 edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/radix.md
 rule_type: suggestion
-further_reading:
-- https://davidwalsh.name/parseint-radix
 ---
 
 <!--SUGGESTIONS-->
@@ -99,3 +97,7 @@ var num = parseFloat(someValue);
 ## When Not To Use It
 
 If you don't want to enforce either presence or omission of the `10` radix value you can turn this rule off.
+
+## Further Reading
+
+* [parseInt and radix](https://davidwalsh.name/parseint-radix)

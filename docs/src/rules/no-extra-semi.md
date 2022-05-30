@@ -3,9 +3,6 @@ title: no-extra-semi
 layout: doc
 edit_link: https://github.com/eslint/eslint/edit/main/docs/src/rules/no-extra-semi.md
 rule_type: suggestion
-related_rules:
-- semi
-- semi-spacing
 ---
 
 <!--RECOMMENDED-->
@@ -75,3 +72,8 @@ class C {
 ## When Not To Use It
 
 If you intentionally use extra semicolons then you can disable this rule.
+
+## Related Rules
+
+* [semi](semi)
+* [semi-spacing](semi-spacing)
