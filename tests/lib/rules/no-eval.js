@@ -139,13 +139,6 @@ ruleTester.run("no-eval", rule, {
             code: "class A { static {} [this.eval()]; }",
             parserOptions: { ecmaVersion: 2022 },
             errors: [{ messageId: "unexpected" }]
-        },
-
-        // in es3, "use strict" directives do not apply
-        {
-            code: "function foo() { 'use strict'; this.eval(); }",
-            parserOptions: { ecmaVersion: 3 },
-            errors: [{ messageId: "unexpected" }]
         }
     ]
 });
