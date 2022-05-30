@@ -4,6 +4,7 @@ const path = require("path");
 
 const INTERNAL_FILES = {
     CLI_ENGINE_PATTERN: "lib/cli-engine/**/*",
+    INIT_PATTERN: "lib/init/**/*",
     LINTER_PATTERN: "lib/linter/**/*",
     RULE_TESTER_PATTERN: "lib/rule-tester/**/*",
     RULES_PATTERN: "lib/rules/**/*",
@@ -113,7 +114,17 @@ module.exports = {
             files: [INTERNAL_FILES.CLI_ENGINE_PATTERN],
             rules: {
                 "node/no-restricted-require": ["error", [
-                    ...createInternalFilesPatterns(INTERNAL_FILES.CLI_ENGINE_PATTERN)
+                    ...createInternalFilesPatterns(INTERNAL_FILES.CLI_ENGINE_PATTERN),
+                    resolveAbsolutePath("lib/init/index.js")
+                ]]
+            }
+        },
+        {
+            files: [INTERNAL_FILES.INIT_PATTERN],
+            rules: {
+                "node/no-restricted-require": ["error", [
+                    ...createInternalFilesPatterns(INTERNAL_FILES.INIT_PATTERN),
+                    resolveAbsolutePath("lib/rule-tester/index.js")
                 ]]
             }
         },
@@ -124,6 +135,7 @@ module.exports = {
                     ...createInternalFilesPatterns(INTERNAL_FILES.LINTER_PATTERN),
                     "fs",
                     resolveAbsolutePath("lib/cli-engine/index.js"),
+                    resolveAbsolutePath("lib/init/index.js"),
                     resolveAbsolutePath("lib/rule-tester/index.js")
                 ]]
             }
@@ -135,6 +147,7 @@ module.exports = {
                     ...createInternalFilesPatterns(INTERNAL_FILES.RULES_PATTERN),
                     "fs",
                     resolveAbsolutePath("lib/cli-engine/index.js"),
+                    resolveAbsolutePath("lib/init/index.js"),
                     resolveAbsolutePath("lib/linter/index.js"),
                     resolveAbsolutePath("lib/rule-tester/index.js"),
                     resolveAbsolutePath("lib/source-code/index.js")
@@ -147,6 +160,7 @@ module.exports = {
                 "node/no-restricted-require": ["error", [
                     ...createInternalFilesPatterns(),
                     resolveAbsolutePath("lib/cli-engine/index.js"),
+                    resolveAbsolutePath("lib/init/index.js"),
                     resolveAbsolutePath("lib/linter/index.js"),
                     resolveAbsolutePath("lib/rule-tester/index.js"),
                     resolveAbsolutePath("lib/source-code/index.js")
@@ -160,6 +174,7 @@ module.exports = {
                     ...createInternalFilesPatterns(INTERNAL_FILES.SOURCE_CODE_PATTERN),
                     "fs",
                     resolveAbsolutePath("lib/cli-engine/index.js"),
+                    resolveAbsolutePath("lib/init/index.js"),
                     resolveAbsolutePath("lib/linter/index.js"),
                     resolveAbsolutePath("lib/rule-tester/index.js"),
                     resolveAbsolutePath("lib/rules/index.js")
@@ -171,7 +186,8 @@ module.exports = {
             rules: {
                 "node/no-restricted-require": ["error", [
                     ...createInternalFilesPatterns(INTERNAL_FILES.RULE_TESTER_PATTERN),
-                    resolveAbsolutePath("lib/cli-engine/index.js")
+                    resolveAbsolutePath("lib/cli-engine/index.js"),
+                    resolveAbsolutePath("lib/init/index.js")
                 ]]
             }
         }
