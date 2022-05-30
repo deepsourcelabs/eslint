@@ -6,7 +6,7 @@
 
     if (toc && matchMedia) {
         const mq = window.matchMedia("(max-width: 1023px)");
-        mq.addEventListener('change', WidthChange);
+        mq.addListener(WidthChange);
         WidthChange(mq);
     }
 
@@ -53,7 +53,7 @@
 
     if (matchMedia) {
         const mq = window.matchMedia("(max-width: 1023px)");
-        mq.addEventListener('change', WidthChange);
+        mq.addListener(WidthChange);
         WidthChange(mq);
     }
 
@@ -93,7 +93,7 @@
 
     if (matchMedia) {
         const mq = window.matchMedia("(max-width: 1023px)");
-        mq.addEventListener('change', WidthChange);
+        mq.addListener(WidthChange);
         WidthChange(mq);
     }
 
