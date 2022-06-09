@@ -10,7 +10,8 @@
   "exports": {
     "./package.json": "./package.json",
     ".": "./lib/api.js",
-    "./use-at-your-own-risk": "./lib/unsupported-api.js"
+    "./use-at-your-own-risk": "./lib/unsupported-api.js",
+    "./source-code-fixer": "./lib/linter/source-code-fixer.js"
   },
   "scripts": {
     "test": "node Makefile.js test",
